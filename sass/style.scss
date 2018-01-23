@@ -1,5 +1,48 @@
+ul,
+h1,
+h2,
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7d7d7;
+
+}
+
+.title{
+  display: inline-block;
+  font-family: "Arial", sans-serif;
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: bold;
+  color: red;
+  opacity: 1;
+}
+
+.game-box{
+  margin: 50px auto;
+  width: 400px;
+}
+
 .word-card{
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #3f3f3f;
   padding: 10px 20px;
   margin: 10px 30px;
   cursor: pointer;
+}
+
+.footer{
+  height: 220px;
+  background-color: #d7d7d7;
 }
